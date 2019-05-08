@@ -11,5 +11,6 @@ end
 end 
 
 def take_a_number(deli, name)
-  
+  deli << name
+  puts 
 end

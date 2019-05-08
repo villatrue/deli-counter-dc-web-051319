@@ -16,4 +16,7 @@ def take_a_number(deli, name)
 end
 
 def now_serving(deli)
-  if deli
+  if deli.empty?
+    puts "There is nobody in line"
+  end
+end
